@@ -4,23 +4,38 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "country",
+            "title":"Country"
+        },
+        {
+            "id": "city",
+            "title":"City"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "type",
+            "title":"Type"
+        },
+        {
+            "id": "description",
+            "title":"Description"
+        },
+        {
+            "id": "date",
+            "title":"Date"
+        },
+        {
+            "id": "expires",
+            "title":"Expires"
+        },
+        {
+            "id": "message",
+            "title":"Message"
         }
-      */
     ],
-    "title": "wunderground-get_alerts" /* Required.A display name for the module */
+    "icon": "dex-wunderground",
+    "title": "Weather Underground - Get Alerts" /* Required.A display name for the module */
 }
